@@ -1,0 +1,1249 @@
+{
+  "firms": [
+    {
+      "id": "fundingpips",
+      "name": "FundingPips",
+      "logo": "FP",
+      "description": "Dubai-based prop firm with $180M+ in verified payouts and multiple challenge options.",
+      "founded": "2022",
+      "trustpilot": "4.5/5",
+      "platforms": ["MT5", "cTrader", "MatchTrader"],
+      "accounts": [
+        {
+          "id": "fp-2step-standard",
+          "name": "2-Step Standard",
+          "type": "2-Step",
+          "sizes": [
+            {"size": "5K", "price": 36},
+            {"size": "10K", "price": 66},
+            {"size": "25K", "price": 156},
+            {"size": "50K", "price": 289},
+            {"size": "100K", "price": 529}
+          ],
+          "rules": {
+            "phase1Target": "8%",
+            "phase2Target": "5%",
+            "dailyLoss": "5%",
+            "maxDrawdown": "10%",
+            "drawdownType": "Static",
+            "minTradingDays": 3,
+            "timeLimit": "Unlimited",
+            "leverage": "1:100",
+            "profitSplit": "60-100%",
+            "payoutFrequency": "Weekly/Bi-weekly/Monthly/On-demand",
+            "refund": "After 4th payout",
+            "newsTrading": "Allowed (eval), Restricted (funded)",
+            "weekendHolding": "Yes",
+            "consistencyRule": "35% (On-demand only)",
+            "scaling": "Up to $2M"
+          }
+        },
+        {
+          "id": "fp-2step-pro",
+          "name": "2-Step Pro",
+          "type": "2-Step",
+          "sizes": [
+            {"size": "5K", "price": 29},
+            {"size": "10K", "price": 55},
+            {"size": "25K", "price": 109},
+            {"size": "50K", "price": 219},
+            {"size": "100K", "price": 399}
+          ],
+          "rules": {
+            "phase1Target": "6%",
+            "phase2Target": "6%",
+            "dailyLoss": "3%",
+            "maxDrawdown": "6%",
+            "drawdownType": "Static",
+            "minTradingDays": 1,
+            "timeLimit": "Unlimited",
+            "leverage": "1:100",
+            "profitSplit": "80%",
+            "payoutFrequency": "Weekly/Daily",
+            "refund": "No",
+            "newsTrading": "Allowed",
+            "weekendHolding": "Yes",
+            "consistencyRule": "45%",
+            "scaling": "Up to $2M"
+          }
+        },
+        {
+          "id": "fp-1step",
+          "name": "1-Step",
+          "type": "1-Step",
+          "sizes": [
+            {"size": "5K", "price": 59},
+            {"size": "10K", "price": 99},
+            {"size": "25K", "price": 199},
+            {"size": "50K", "price": 319},
+            {"size": "100K", "price": 555}
+          ],
+          "rules": {
+            "phase1Target": "10%",
+            "phase2Target": "N/A",
+            "dailyLoss": "4%",
+            "maxDrawdown": "6%",
+            "drawdownType": "Static",
+            "minTradingDays": 3,
+            "timeLimit": "Unlimited",
+            "leverage": "1:50",
+            "profitSplit": "60-100%",
+            "payoutFrequency": "Weekly/Bi-weekly/Monthly/On-demand",
+            "refund": "After 4th payout",
+            "newsTrading": "Allowed (eval), Restricted (funded)",
+            "weekendHolding": "Yes",
+            "consistencyRule": "35% (On-demand only)",
+            "scaling": "Up to $2M"
+          }
+        },
+        {
+          "id": "fp-zero",
+          "name": "Instant Funding Zero",
+          "type": "Instant",
+          "sizes": [
+            {"size": "5K", "price": 69},
+            {"size": "10K", "price": 99},
+            {"size": "25K", "price": 199},
+            {"size": "50K", "price": 299},
+            {"size": "100K", "price": 499}
+          ],
+          "rules": {
+            "phase1Target": "None",
+            "phase2Target": "N/A",
+            "dailyLoss": "3%",
+            "maxDrawdown": "5%",
+            "drawdownType": "Trailing (Equity)",
+            "minTradingDays": 7,
+            "timeLimit": "N/A",
+            "leverage": "1:30",
+            "profitSplit": "95%",
+            "payoutFrequency": "Bi-weekly",
+            "refund": "No",
+            "newsTrading": "Restricted (10 min window)",
+            "weekendHolding": "No",
+            "consistencyRule": "15%",
+            "scaling": "Up to $2M"
+          }
+        }
+      ]
+    },
+    {
+      "id": "blueberry",
+      "name": "Blueberry Funded",
+      "logo": "BB",
+      "description": "Broker-backed prop firm powered by Blueberry Markets (ASIC-regulated).",
+      "founded": "2024",
+      "trustpilot": "3.8/5",
+      "platforms": ["MT4", "MT5", "DXtrade", "TradeLocker"],
+      "accounts": [
+        {
+          "id": "bb-prime-2step",
+          "name": "Prime 2-Step",
+          "type": "2-Step",
+          "sizes": [
+            {"size": "2.5K", "price": 30},
+            {"size": "5K", "price": 55},
+            {"size": "10K", "price": 90},
+            {"size": "25K", "price": 165},
+            {"size": "50K", "price": 325},
+            {"size": "100K", "price": 650},
+            {"size": "200K", "price": 1170}
+          ],
+          "rules": {
+            "phase1Target": "8%",
+            "phase2Target": "6%",
+            "dailyLoss": "4%",
+            "maxDrawdown": "10%",
+            "drawdownType": "Static",
+            "minTradingDays": 5,
+            "timeLimit": "Unlimited",
+            "leverage": "1:30",
+            "profitSplit": "80-90%",
+            "payoutFrequency": "14 Days",
+            "refund": "Yes",
+            "newsTrading": "Allowed",
+            "weekendHolding": "Yes",
+            "consistencyRule": "None",
+            "scaling": "Up to $2M"
+          }
+        },
+        {
+          "id": "bb-1step",
+          "name": "1-Step Challenge",
+          "type": "1-Step",
+          "sizes": [
+            {"size": "5K", "price": 40},
+            {"size": "10K", "price": 80},
+            {"size": "25K", "price": 180},
+            {"size": "50K", "price": 350},
+            {"size": "100K", "price": 650},
+            {"size": "200K", "price": 1100}
+          ],
+          "rules": {
+            "phase1Target": "10%",
+            "phase2Target": "N/A",
+            "dailyLoss": "4%",
+            "maxDrawdown": "6%",
+            "drawdownType": "Static",
+            "minTradingDays": 3,
+            "timeLimit": "Unlimited",
+            "leverage": "1:30",
+            "profitSplit": "80-90%",
+            "payoutFrequency": "14 Days",
+            "refund": "Yes",
+            "newsTrading": "Restricted",
+            "weekendHolding": "Yes",
+            "consistencyRule": "None",
+            "scaling": "Up to $2M"
+          }
+        },
+        {
+          "id": "bb-2step",
+          "name": "Classic 2-Step",
+          "type": "2-Step",
+          "sizes": [
+            {"size": "5K", "price": 35},
+            {"size": "10K", "price": 70},
+            {"size": "25K", "price": 165},
+            {"size": "50K", "price": 320},
+            {"size": "100K", "price": 620},
+            {"size": "200K", "price": 1180}
+          ],
+          "rules": {
+            "phase1Target": "10%",
+            "phase2Target": "5%",
+            "dailyLoss": "5%",
+            "maxDrawdown": "10%",
+            "drawdownType": "Static",
+            "minTradingDays": 3,
+            "timeLimit": "Unlimited",
+            "leverage": "1:50",
+            "profitSplit": "80-90%",
+            "payoutFrequency": "14 Days",
+            "refund": "Yes",
+            "newsTrading": "Allowed",
+            "weekendHolding": "Yes",
+            "consistencyRule": "None",
+            "scaling": "Up to $2M"
+          }
+        },
+        {
+          "id": "bb-instant-lite",
+          "name": "Instant Lite",
+          "type": "Instant",
+          "sizes": [
+            {"size": "1.25K", "price": 37},
+            {"size": "2.5K", "price": 56},
+            {"size": "5K", "price": 83},
+            {"size": "10K", "price": 125},
+            {"size": "25K", "price": 188},
+            {"size": "50K", "price": 375},
+            {"size": "100K", "price": 750}
+          ],
+          "rules": {
+            "phase1Target": "None",
+            "phase2Target": "N/A",
+            "dailyLoss": "2%",
+            "maxDrawdown": "4%",
+            "drawdownType": "Trailing Lock",
+            "minTradingDays": 3,
+            "timeLimit": "N/A",
+            "leverage": "1:30",
+            "profitSplit": "80%",
+            "payoutFrequency": "14 Days",
+            "refund": "No",
+            "newsTrading": "No",
+            "weekendHolding": "Yes",
+            "consistencyRule": "None",
+            "scaling": "Up to $2M"
+          }
+        },
+        {
+          "id": "bb-instant-elite",
+          "name": "Instant Elite",
+          "type": "Instant",
+          "sizes": [
+            {"size": "2.5K", "price": 100},
+            {"size": "5K", "price": 150},
+            {"size": "10K", "price": 250},
+            {"size": "25K", "price": 500},
+            {"size": "50K", "price": 1000}
+          ],
+          "rules": {
+            "phase1Target": "None",
+            "phase2Target": "N/A",
+            "dailyLoss": "None",
+            "maxDrawdown": "10%",
+            "drawdownType": "Trailing Lock",
+            "minTradingDays": 5,
+            "timeLimit": "N/A",
+            "leverage": "1:30",
+            "profitSplit": "80%",
+            "payoutFrequency": "14 Days",
+            "refund": "No",
+            "newsTrading": "No",
+            "weekendHolding": "Yes",
+            "consistencyRule": "None",
+            "scaling": "Up to $2M"
+          }
+        },
+        {
+          "id": "bb-rapid",
+          "name": "Rapid",
+          "type": "1-Step",
+          "sizes": [
+            {"size": "10K", "price": 50},
+            {"size": "25K", "price": 100},
+            {"size": "50K", "price": 200},
+            {"size": "100K", "price": 300}
+          ],
+          "rules": {
+            "phase1Target": "5%",
+            "phase2Target": "N/A",
+            "dailyLoss": "3%",
+            "maxDrawdown": "4%",
+            "drawdownType": "Trailing",
+            "minTradingDays": 0,
+            "timeLimit": "7 Days",
+            "leverage": "1:30",
+            "profitSplit": "80%",
+            "payoutFrequency": "14 Days",
+            "refund": "No",
+            "newsTrading": "No",
+            "weekendHolding": "Yes",
+            "consistencyRule": "None",
+            "scaling": "Up to $2M"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ftm",
+      "name": "Funded Trader Markets",
+      "logo": "FTM",
+      "description": "Fast-growing prop firm with on-demand payouts and flexible rules. Launched August 2024.",
+      "founded": "2024",
+      "trustpilot": "3.9/5",
+      "platforms": ["cTrader", "MatchTrader", "MT5", "TradeLocker"],
+      "accounts": [
+        {
+          "id": "ftm-1step-nitro",
+          "name": "1-Step Nitro",
+          "type": "1-Step",
+          "sizes": [
+            {"size": "5K", "price": 58},
+            {"size": "10K", "price": 129},
+            {"size": "25K", "price": 223},
+            {"size": "50K", "price": 372},
+            {"size": "100K", "price": 622},
+            {"size": "200K", "price": 1096},
+            {"size": "300K", "price": 1622}
+          ],
+          "rules": {
+            "phase1Target": "10%",
+            "phase2Target": "N/A",
+            "dailyLoss": "4%",
+            "maxDrawdown": "6%",
+            "drawdownType": "Static",
+            "minTradingDays": 5,
+            "timeLimit": "Unlimited",
+            "leverage": "1:100",
+            "profitSplit": "100% (first $10K), then 80%",
+            "payoutFrequency": "On-demand/Weekly",
+            "refund": "No",
+            "newsTrading": "Allowed",
+            "weekendHolding": "Yes",
+            "consistencyRule": "50% (eval), 45% (funded)",
+            "scaling": "Up to $3M"
+          }
+        },
+        {
+          "id": "ftm-1step-nitro-pro",
+          "name": "1-Step Nitro Pro",
+          "type": "1-Step",
+          "sizes": [
+            {"size": "5K", "price": 39},
+            {"size": "10K", "price": 89},
+            {"size": "25K", "price": 155},
+            {"size": "50K", "price": 258},
+            {"size": "100K", "price": 432},
+            {"size": "200K", "price": 672}
+          ],
+          "rules": {
+            "phase1Target": "10%",
+            "phase2Target": "N/A",
+            "dailyLoss": "2%",
+            "maxDrawdown": "3%",
+            "drawdownType": "Static",
+            "minTradingDays": 5,
+            "timeLimit": "Unlimited",
+            "leverage": "1:100",
+            "profitSplit": "100% (first $10K), then 80%",
+            "payoutFrequency": "On-demand/Weekly",
+            "refund": "No",
+            "newsTrading": "Allowed",
+            "weekendHolding": "Yes",
+            "consistencyRule": "50% (eval), 45% (funded)",
+            "scaling": "Up to $3M"
+          }
+        },
+        {
+          "id": "ftm-1step-nitro-x",
+          "name": "1-Step Nitro X",
+          "type": "Instant",
+          "sizes": [
+            {"size": "25K", "price": 147},
+            {"size": "50K", "price": 245},
+            {"size": "100K", "price": 245},
+            {"size": "150K", "price": 347}
+          ],
+          "rules": {
+            "phase1Target": "6%",
+            "phase2Target": "N/A",
+            "dailyLoss": "3%",
+            "maxDrawdown": "3%",
+            "drawdownType": "Static",
+            "minTradingDays": 0,
+            "timeLimit": "N/A",
+            "leverage": "1:100",
+            "profitSplit": "100%",
+            "payoutFrequency": "On-demand",
+            "refund": "No",
+            "newsTrading": "Allowed",
+            "weekendHolding": "Yes",
+            "consistencyRule": "None",
+            "scaling": "Up to $3M"
+          }
+        },
+        {
+          "id": "ftm-2step-plus",
+          "name": "2-Step Plus",
+          "type": "2-Step",
+          "sizes": [
+            {"size": "5K", "price": 82},
+            {"size": "10K", "price": 164},
+            {"size": "25K", "price": 328},
+            {"size": "50K", "price": 492},
+            {"size": "100K", "price": 874},
+            {"size": "200K", "price": 1747}
+          ],
+          "rules": {
+            "phase1Target": "8%",
+            "phase2Target": "5%",
+            "dailyLoss": "4%",
+            "maxDrawdown": "10%",
+            "drawdownType": "Balanced",
+            "minTradingDays": 4,
+            "timeLimit": "Unlimited",
+            "leverage": "1:100",
+            "profitSplit": "70%",
+            "payoutFrequency": "Bi-weekly",
+            "refund": "No",
+            "newsTrading": "Allowed",
+            "weekendHolding": "Yes",
+            "consistencyRule": "30%",
+            "scaling": "Up to $3M"
+          }
+        },
+        {
+          "id": "ftm-2step-prime",
+          "name": "2-Step Prime",
+          "type": "2-Step",
+          "sizes": [
+            {"size": "5K", "price": 112},
+            {"size": "10K", "price": 194},
+            {"size": "25K", "price": 291},
+            {"size": "50K", "price": 486},
+            {"size": "100K", "price": 972}
+          ],
+          "rules": {
+            "phase1Target": "8%",
+            "phase2Target": "5%",
+            "dailyLoss": "3%",
+            "maxDrawdown": "6%",
+            "drawdownType": "Static",
+            "minTradingDays": 4,
+            "timeLimit": "Unlimited",
+            "leverage": "1:100",
+            "profitSplit": "80%",
+            "payoutFrequency": "Bi-weekly",
+            "refund": "No",
+            "newsTrading": "Allowed",
+            "weekendHolding": "Yes",
+            "consistencyRule": "30%",
+            "scaling": "Up to $3M"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fundingrock",
+      "name": "FundingRock",
+      "logo": "FR",
+      "description": "Cyprus-registered prop firm with no hidden rules philosophy. Launched 2025.",
+      "founded": "2025",
+      "trustpilot": "4.1/5",
+      "platforms": ["TradeLocker"],
+      "accounts": [
+        {
+          "id": "fr-2step-standard",
+          "name": "Standard 2-Step",
+          "type": "2-Step",
+          "sizes": [
+            {"size": "5K", "price": 59},
+            {"size": "10K", "price": 99},
+            {"size": "25K", "price": 219},
+            {"size": "50K", "price": 349},
+            {"size": "100K", "price": 549},
+            {"size": "200K", "price": 999}
+          ],
+          "rules": {
+            "phase1Target": "8%",
+            "phase2Target": "5%",
+            "dailyLoss": "5%",
+            "maxDrawdown": "10%",
+            "drawdownType": "Balance-based",
+            "minTradingDays": 4,
+            "timeLimit": "Unlimited",
+            "leverage": "1:100",
+            "profitSplit": "80%",
+            "payoutFrequency": "Bi-weekly",
+            "refund": "On first payout",
+            "newsTrading": "Allowed (2 min rule)",
+            "weekendHolding": "Add-on",
+            "consistencyRule": "30% (post-Apr 2025)",
+            "scaling": "Up to $1M"
+          }
+        },
+        {
+          "id": "fr-1step",
+          "name": "1-Step Challenge",
+          "type": "1-Step",
+          "sizes": [
+            {"size": "5K", "price": 50},
+            {"size": "10K", "price": 80},
+            {"size": "25K", "price": 155},
+            {"size": "50K", "price": 270},
+            {"size": "100K", "price": 450}
+          ],
+          "rules": {
+            "phase1Target": "8%",
+            "phase2Target": "N/A",
+            "dailyLoss": "4%",
+            "maxDrawdown": "8%",
+            "drawdownType": "Static",
+            "minTradingDays": 0,
+            "timeLimit": "Unlimited",
+            "leverage": "1:100",
+            "profitSplit": "80%",
+            "payoutFrequency": "Bi-weekly",
+            "refund": "On first payout",
+            "newsTrading": "Allowed (2 min rule)",
+            "weekendHolding": "Add-on",
+            "consistencyRule": "30%",
+            "scaling": "Up to $1M"
+          }
+        },
+        {
+          "id": "fr-2step-pro",
+          "name": "2-Step Pro",
+          "type": "2-Step",
+          "sizes": [
+            {"size": "5K", "price": 105},
+            {"size": "10K", "price": 229},
+            {"size": "25K", "price": 349},
+            {"size": "50K", "price": 519},
+            {"size": "100K", "price": 799}
+          ],
+          "rules": {
+            "phase1Target": "8%",
+            "phase2Target": "5%",
+            "dailyLoss": "5%",
+            "maxDrawdown": "10%",
+            "drawdownType": "Static",
+            "minTradingDays": 4,
+            "timeLimit": "Unlimited",
+            "leverage": "1:100",
+            "profitSplit": "80%",
+            "payoutFrequency": "Bi-weekly",
+            "refund": "On first payout",
+            "newsTrading": "Allowed (2 min rule)",
+            "weekendHolding": "Add-on",
+            "consistencyRule": "30%",
+            "scaling": "Up to $1M"
+          }
+        },
+        {
+          "id": "fr-2step-lite",
+          "name": "2-Step Lite",
+          "type": "2-Step",
+          "sizes": [
+            {"size": "5K", "price": 40},
+            {"size": "10K", "price": 60},
+            {"size": "25K", "price": 120},
+            {"size": "50K", "price": 210},
+            {"size": "100K", "price": 350}
+          ],
+          "rules": {
+            "phase1Target": "6%",
+            "phase2Target": "6%",
+            "dailyLoss": "3%",
+            "maxDrawdown": "6%",
+            "drawdownType": "Static",
+            "minTradingDays": 4,
+            "timeLimit": "Unlimited",
+            "leverage": "1:100",
+            "profitSplit": "80%",
+            "payoutFrequency": "Bi-weekly",
+            "refund": "On first payout",
+            "newsTrading": "Allowed (2 min rule)",
+            "weekendHolding": "Add-on",
+            "consistencyRule": "30%",
+            "scaling": "Up to $1M"
+          }
+        }
+      ]
+    },
+    {
+      "id": "pipstone",
+      "name": "Pipstone Capital",
+      "logo": "PC",
+      "description": "Dubai-based prop firm with BOGO promotions and no consistency rules.",
+      "founded": "2024",
+      "trustpilot": "4.2/5",
+      "platforms": ["cTrader", "MatchTrader"],
+      "accounts": [
+        {
+          "id": "pc-1step",
+          "name": "1-Step Challenge",
+          "type": "1-Step",
+          "sizes": [
+            {"size": "5K", "price": 49},
+            {"size": "10K", "price": 89},
+            {"size": "25K", "price": 179},
+            {"size": "50K", "price": 349},
+            {"size": "100K", "price": 649}
+          ],
+          "rules": {
+            "phase1Target": "10%",
+            "phase2Target": "N/A",
+            "dailyLoss": "4%",
+            "maxDrawdown": "8%",
+            "drawdownType": "Static",
+            "minTradingDays": 3,
+            "timeLimit": "Unlimited",
+            "leverage": "1:100",
+            "profitSplit": "90%",
+            "payoutFrequency": "Weekly/Bi-weekly",
+            "refund": "On first payout",
+            "newsTrading": "Allowed",
+            "weekendHolding": "Yes",
+            "consistencyRule": "None",
+            "scaling": "Up to $1M"
+          }
+        },
+        {
+          "id": "pc-2step",
+          "name": "2-Step Challenge",
+          "type": "2-Step",
+          "sizes": [
+            {"size": "5K", "price": 39},
+            {"size": "10K", "price": 79},
+            {"size": "25K", "price": 149},
+            {"size": "50K", "price": 299},
+            {"size": "100K", "price": 549}
+          ],
+          "rules": {
+            "phase1Target": "8%",
+            "phase2Target": "5%",
+            "dailyLoss": "5%",
+            "maxDrawdown": "10%",
+            "drawdownType": "Static",
+            "minTradingDays": 3,
+            "timeLimit": "Unlimited",
+            "leverage": "1:100",
+            "profitSplit": "90%",
+            "payoutFrequency": "Weekly/Bi-weekly",
+            "refund": "On first payout",
+            "newsTrading": "Allowed",
+            "weekendHolding": "Yes",
+            "consistencyRule": "None",
+            "scaling": "Up to $1M"
+          }
+        },
+        {
+          "id": "pc-instant",
+          "name": "Instant Funded",
+          "type": "Instant",
+          "sizes": [
+            {"size": "5K", "price": 99},
+            {"size": "10K", "price": 179},
+            {"size": "25K", "price": 349},
+            {"size": "50K", "price": 699}
+          ],
+          "rules": {
+            "phase1Target": "None",
+            "phase2Target": "N/A",
+            "dailyLoss": "4%",
+            "maxDrawdown": "8%",
+            "drawdownType": "Static",
+            "minTradingDays": 3,
+            "timeLimit": "N/A",
+            "leverage": "1:30",
+            "profitSplit": "80%",
+            "payoutFrequency": "Bi-weekly",
+            "refund": "No",
+            "newsTrading": "Allowed",
+            "weekendHolding": "Yes",
+            "consistencyRule": "None",
+            "scaling": "Up to $1M"
+          }
+        }
+      ]
+    },
+    {
+      "id": "nys",
+      "name": "NYS Markets",
+      "logo": "NYS",
+      "description": "Prop firm with NYS Academy education focus and flexible account options.",
+      "founded": "2024",
+      "trustpilot": "4.0/5",
+      "platforms": ["MT5", "MatchTrader"],
+      "accounts": [
+        {
+          "id": "nys-1step",
+          "name": "1-Step Challenge",
+          "type": "1-Step",
+          "sizes": [
+            {"size": "5K", "price": 59},
+            {"size": "10K", "price": 89},
+            {"size": "20K", "price": 189},
+            {"size": "50K", "price": 329},
+            {"size": "100K", "price": 589},
+            {"size": "150K", "price": 829}
+          ],
+          "rules": {
+            "phase1Target": "10%",
+            "phase2Target": "N/A",
+            "dailyLoss": "3%",
+            "maxDrawdown": "6%",
+            "drawdownType": "Static",
+            "minTradingDays": 3,
+            "timeLimit": "Unlimited",
+            "leverage": "1:30",
+            "profitSplit": "80-100%",
+            "payoutFrequency": "14 Days",
+            "refund": "Yes",
+            "newsTrading": "Allowed (eval)",
+            "weekendHolding": "Yes",
+            "consistencyRule": "None",
+            "scaling": "Up to $500K"
+          }
+        },
+        {
+          "id": "nys-2step",
+          "name": "2-Step Challenge",
+          "type": "2-Step",
+          "sizes": [
+            {"size": "5K", "price": 49},
+            {"size": "10K", "price": 79},
+            {"size": "20K", "price": 149},
+            {"size": "50K", "price": 299},
+            {"size": "100K", "price": 529}
+          ],
+          "rules": {
+            "phase1Target": "8%",
+            "phase2Target": "5%",
+            "dailyLoss": "5%",
+            "maxDrawdown": "10%",
+            "drawdownType": "Static",
+            "minTradingDays": 3,
+            "timeLimit": "Unlimited",
+            "leverage": "1:100",
+            "profitSplit": "80-100%",
+            "payoutFrequency": "14 Days",
+            "refund": "Yes",
+            "newsTrading": "Allowed (eval)",
+            "weekendHolding": "Yes",
+            "consistencyRule": "None",
+            "scaling": "Up to $500K"
+          }
+        },
+        {
+          "id": "nys-instant",
+          "name": "Instant Funding",
+          "type": "Instant",
+          "sizes": [
+            {"size": "5K", "price": 99},
+            {"size": "10K", "price": 149},
+            {"size": "20K", "price": 249},
+            {"size": "50K", "price": 449}
+          ],
+          "rules": {
+            "phase1Target": "None",
+            "phase2Target": "N/A",
+            "dailyLoss": "3%",
+            "maxDrawdown": "6%",
+            "drawdownType": "Static",
+            "minTradingDays": 0,
+            "timeLimit": "N/A",
+            "leverage": "1:30",
+            "profitSplit": "80%",
+            "payoutFrequency": "30 Days",
+            "refund": "No",
+            "newsTrading": "Restricted",
+            "weekendHolding": "Yes",
+            "consistencyRule": "None",
+            "scaling": "Up to $500K"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fundedsquad",
+      "name": "FundedSquad",
+      "logo": "FS",
+      "description": "Prop firm with fast 12-hour payout guarantee and up to $1M scaling.",
+      "founded": "2024",
+      "trustpilot": "3.9/5",
+      "platforms": ["TradeLocker", "MatchTrader"],
+      "accounts": [
+        {
+          "id": "fs-1step",
+          "name": "1-Step Challenge",
+          "type": "1-Step",
+          "sizes": [
+            {"size": "10K", "price": 119},
+            {"size": "25K", "price": 199},
+            {"size": "50K", "price": 299},
+            {"size": "100K", "price": 549},
+            {"size": "200K", "price": 1219}
+          ],
+          "rules": {
+            "phase1Target": "9%",
+            "phase2Target": "N/A",
+            "dailyLoss": "3%",
+            "maxDrawdown": "6%",
+            "drawdownType": "Trailing",
+            "minTradingDays": 3,
+            "timeLimit": "Unlimited",
+            "leverage": "1:30",
+            "profitSplit": "85-90%",
+            "payoutFrequency": "14 Days",
+            "refund": "After 3rd payout",
+            "newsTrading": "Allowed",
+            "weekendHolding": "Yes",
+            "consistencyRule": "None",
+            "scaling": "Up to $1M"
+          }
+        },
+        {
+          "id": "fs-2step",
+          "name": "2-Step Challenge",
+          "type": "2-Step",
+          "sizes": [
+            {"size": "10K", "price": 109},
+            {"size": "25K", "price": 189},
+            {"size": "50K", "price": 289},
+            {"size": "100K", "price": 549},
+            {"size": "200K", "price": 1199}
+          ],
+          "rules": {
+            "phase1Target": "6%",
+            "phase2Target": "6%",
+            "dailyLoss": "3%",
+            "maxDrawdown": "8%",
+            "drawdownType": "Static",
+            "minTradingDays": 3,
+            "timeLimit": "Unlimited",
+            "leverage": "1:30",
+            "profitSplit": "85-90%",
+            "payoutFrequency": "14 Days",
+            "refund": "After 3rd payout",
+            "newsTrading": "Allowed",
+            "weekendHolding": "Yes",
+            "consistencyRule": "None",
+            "scaling": "Up to $1M"
+          }
+        },
+        {
+          "id": "fs-2step-pro",
+          "name": "2-Step Pro",
+          "type": "2-Step",
+          "sizes": [
+            {"size": "10K", "price": 109},
+            {"size": "25K", "price": 189},
+            {"size": "50K", "price": 289},
+            {"size": "100K", "price": 549},
+            {"size": "200K", "price": 1099}
+          ],
+          "rules": {
+            "phase1Target": "9%",
+            "phase2Target": "6%",
+            "dailyLoss": "4%",
+            "maxDrawdown": "10%",
+            "drawdownType": "Static",
+            "minTradingDays": 3,
+            "timeLimit": "Unlimited",
+            "leverage": "1:30",
+            "profitSplit": "85-90%",
+            "payoutFrequency": "14 Days",
+            "refund": "After 3rd payout",
+            "newsTrading": "Allowed",
+            "weekendHolding": "Yes",
+            "consistencyRule": "None",
+            "scaling": "Up to $1M"
+          }
+        },
+        {
+          "id": "fs-instant",
+          "name": "Instant Funding",
+          "type": "Instant",
+          "sizes": [
+            {"size": "10K", "price": 219},
+            {"size": "25K", "price": 399},
+            {"size": "50K", "price": 699}
+          ],
+          "rules": {
+            "phase1Target": "5%",
+            "phase2Target": "N/A",
+            "dailyLoss": "3%",
+            "maxDrawdown": "6%",
+            "drawdownType": "Smart Drawdown",
+            "minTradingDays": 5,
+            "timeLimit": "N/A",
+            "leverage": "1:10",
+            "profitSplit": "60-100%",
+            "payoutFrequency": "14 Days",
+            "refund": "No",
+            "newsTrading": "Restricted",
+            "weekendHolding": "Yes",
+            "consistencyRule": "None",
+            "scaling": "Up to $1M"
+          }
+        }
+      ]
+    },
+    {
+      "id": "mff",
+      "name": "My Funded Futures",
+      "logo": "MFF",
+      "description": "US futures-only prop firm with 4.9 Trustpilot rating and fastest payouts.",
+      "founded": "2023",
+      "trustpilot": "4.9/5",
+      "platforms": ["NinjaTrader", "Tradovate", "TradingView", "Quantower"],
+      "accounts": [
+        {
+          "id": "mff-rapid",
+          "name": "Rapid Plan",
+          "type": "2-Step",
+          "sizes": [
+            {"size": "25K", "price": 109},
+            {"size": "50K", "price": 157},
+            {"size": "100K", "price": 267},
+            {"size": "150K", "price": 347}
+          ],
+          "rules": {
+            "phase1Target": "$1,500/$3,000/$6,000/$9,000",
+            "phase2Target": "N/A (1-step payout)",
+            "dailyLoss": "None",
+            "maxDrawdown": "$1,000/$2,000/$3,000/$4,500",
+            "drawdownType": "EOD Trailing",
+            "minTradingDays": 5,
+            "timeLimit": "Unlimited",
+            "leverage": "Futures",
+            "profitSplit": "90%",
+            "payoutFrequency": "Every 5 winning days",
+            "refund": "No",
+            "newsTrading": "Not allowed",
+            "weekendHolding": "No",
+            "consistencyRule": "50% (eval only)",
+            "scaling": "Up to $150K"
+          }
+        },
+        {
+          "id": "mff-pro",
+          "name": "Pro Plan",
+          "type": "2-Step",
+          "sizes": [
+            {"size": "50K", "price": 227},
+            {"size": "100K", "price": 344},
+            {"size": "150K", "price": 477}
+          ],
+          "rules": {
+            "phase1Target": "$3,000/$6,000/$9,000",
+            "phase2Target": "N/A",
+            "dailyLoss": "None",
+            "maxDrawdown": "$2,000/$3,000/$4,500",
+            "drawdownType": "EOD Trailing",
+            "minTradingDays": 5,
+            "timeLimit": "Unlimited",
+            "leverage": "Futures",
+            "profitSplit": "80%",
+            "payoutFrequency": "Bi-weekly",
+            "refund": "No",
+            "newsTrading": "Not allowed",
+            "weekendHolding": "No",
+            "consistencyRule": "None",
+            "scaling": "Up to $150K"
+          }
+        },
+        {
+          "id": "mff-builder",
+          "name": "Builder Plan",
+          "type": "1-Step",
+          "sizes": [
+            {"size": "50K", "price": 153}
+          ],
+          "rules": {
+            "phase1Target": "$3,000",
+            "phase2Target": "N/A",
+            "dailyLoss": "$1,000",
+            "maxDrawdown": "$2,000",
+            "drawdownType": "EOD Trailing",
+            "minTradingDays": 0,
+            "timeLimit": "Unlimited",
+            "leverage": "Futures",
+            "profitSplit": "80%",
+            "payoutFrequency": "48 Hours",
+            "refund": "No",
+            "newsTrading": "Not allowed",
+            "weekendHolding": "No",
+            "consistencyRule": "None",
+            "scaling": "Up to $50K"
+          }
+        }
+      ]
+    },
+    {
+      "id": "lucid",
+      "name": "Lucid Trading",
+      "logo": "LT",
+      "description": "Futures prop firm with 15-minute average payout speed.",
+      "founded": "2025",
+      "trustpilot": "4.6/5",
+      "platforms": ["NinjaTrader", "Tradovate", "TradingView", "Quantower"],
+      "accounts": [
+        {
+          "id": "lt-flex",
+          "name": "LucidFlex",
+          "type": "1-Step",
+          "sizes": [
+            {"size": "25K", "price": 140},
+            {"size": "50K", "price": 140},
+            {"size": "100K", "price": 225},
+            {"size": "150K", "price": 420}
+          ],
+          "rules": {
+            "phase1Target": "$1,250/$3,000/$6,000/$9,000",
+            "phase2Target": "N/A",
+            "dailyLoss": "None",
+            "maxDrawdown": "$1,000/$2,000/$3,000/$4,500",
+            "drawdownType": "EOD Trailing",
+            "minTradingDays": 2,
+            "timeLimit": "Unlimited",
+            "leverage": "Futures",
+            "profitSplit": "90%",
+            "payoutFrequency": "Daily",
+            "refund": "No",
+            "newsTrading": "Allowed",
+            "weekendHolding": "No",
+            "consistencyRule": "50% (eval only)",
+            "scaling": "Up to $150K"
+          }
+        },
+        {
+          "id": "lt-pro",
+          "name": "LucidPro",
+          "type": "1-Step",
+          "sizes": [
+            {"size": "25K", "price": 180},
+            {"size": "50K", "price": 185},
+            {"size": "100K", "price": 285},
+            {"size": "150K", "price": 370}
+          ],
+          "rules": {
+            "phase1Target": "$1,250/$3,000/$6,000/$9,000",
+            "phase2Target": "N/A",
+            "dailyLoss": "$1,200-$2,700",
+            "maxDrawdown": "$1,000/$2,000/$3,000/$4,500",
+            "drawdownType": "EOD Trailing",
+            "minTradingDays": 0,
+            "timeLimit": "Unlimited",
+            "leverage": "Futures",
+            "profitSplit": "100% (first $10K), then 90%",
+            "payoutFrequency": "Daily",
+            "refund": "No",
+            "newsTrading": "Allowed",
+            "weekendHolding": "No",
+            "consistencyRule": "None (eval), 40% (funded)",
+            "scaling": "Up to $150K"
+          }
+        },
+        {
+          "id": "lt-direct",
+          "name": "LucidDirect",
+          "type": "Instant",
+          "sizes": [
+            {"size": "25K", "price": 340},
+            {"size": "50K", "price": 520},
+            {"size": "100K", "price": 700},
+            {"size": "150K", "price": 840}
+          ],
+          "rules": {
+            "phase1Target": "None",
+            "phase2Target": "N/A",
+            "dailyLoss": "$1,200-$3,000",
+            "maxDrawdown": "$1,000/$2,000/$3,500/$5,000",
+            "drawdownType": "EOD Trailing",
+            "minTradingDays": 0,
+            "timeLimit": "N/A",
+            "leverage": "Futures",
+            "profitSplit": "100% (first $10K), then 90%",
+            "payoutFrequency": "Daily",
+            "refund": "No",
+            "newsTrading": "Allowed",
+            "weekendHolding": "No",
+            "consistencyRule": "20%",
+            "scaling": "Up to $150K"
+          }
+        }
+      ]
+    },
+    {
+      "id": "tradeify",
+      "name": "Tradeify",
+      "logo": "TF",
+      "description": "US-based futures prop firm with Lightning instant funding and 100% first $15K.",
+      "founded": "2024",
+      "trustpilot": "4.6/5",
+      "platforms": ["Tradovate", "NinjaTrader", "TradingView"],
+      "accounts": [
+        {
+          "id": "tf-growth",
+          "name": "Growth Evaluation",
+          "type": "1-Step",
+          "sizes": [
+            {"size": "25K", "price": 99},
+            {"size": "50K", "price": 149},
+            {"size": "100K", "price": 249},
+            {"size": "150K", "price": 369}
+          ],
+          "rules": {
+            "phase1Target": "$1,500/$3,000/$6,000/$9,000",
+            "phase2Target": "N/A",
+            "dailyLoss": "Yes (soft)",
+            "maxDrawdown": "$1,000/$2,000/$3,000/$4,500",
+            "drawdownType": "EOD Trailing (Locks at +$100)",
+            "minTradingDays": 1,
+            "timeLimit": "Unlimited",
+            "leverage": "Futures",
+            "profitSplit": "100% (first $15K), then 90%",
+            "payoutFrequency": "On-demand",
+            "refund": "No",
+            "newsTrading": "Allowed",
+            "weekendHolding": "No",
+            "consistencyRule": "None (eval), 35% (funded)",
+            "scaling": "Up to $150K"
+          }
+        },
+        {
+          "id": "tf-select",
+          "name": "Select Evaluation",
+          "type": "1-Step",
+          "sizes": [
+            {"size": "25K", "price": 109},
+            {"size": "50K", "price": 159},
+            {"size": "100K", "price": 259},
+            {"size": "150K", "price": 369}
+          ],
+          "rules": {
+            "phase1Target": "$1,500/$3,000/$6,000/$9,000",
+            "phase2Target": "N/A",
+            "dailyLoss": "None",
+            "maxDrawdown": "$1,000/$2,000/$3,000/$4,500",
+            "drawdownType": "EOD Trailing (Locks at +$100)",
+            "minTradingDays": 3,
+            "timeLimit": "Unlimited",
+            "leverage": "Futures",
+            "profitSplit": "90%",
+            "payoutFrequency": "Daily or Flex (5 days)",
+            "refund": "No",
+            "newsTrading": "Allowed",
+            "weekendHolding": "No",
+            "consistencyRule": "40% (eval only)",
+            "scaling": "Up to $150K"
+          }
+        },
+        {
+          "id": "tf-lightning",
+          "name": "Lightning Funded",
+          "type": "Instant",
+          "sizes": [
+            {"size": "25K", "price": 345},
+            {"size": "50K", "price": 449},
+            {"size": "100K", "price": 599},
+            {"size": "150K", "price": 796}
+          ],
+          "rules": {
+            "phase1Target": "None",
+            "phase2Target": "N/A",
+            "dailyLoss": "None",
+            "maxDrawdown": "$1,000/$2,000/$3,000/$4,500",
+            "drawdownType": "EOD Trailing (Locks at +$100)",
+            "minTradingDays": 0,
+            "timeLimit": "N/A",
+            "leverage": "Futures",
+            "profitSplit": "100% (first $15K), then 90%",
+            "payoutFrequency": "On-demand",
+            "refund": "No",
+            "newsTrading": "Allowed",
+            "weekendHolding": "No",
+            "consistencyRule": "20% → 25% → 30% (progressive)",
+            "scaling": "Up to $150K"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cointracts",
+      "name": "Cointracts",
+      "logo": "CT",
+      "description": "Crypto-focused prop firm with 24/7 market access and daily payouts.",
+      "founded": "2024",
+      "trustpilot": "4.0/5",
+      "platforms": ["Proprietary Platform"],
+      "accounts": [
+        {
+          "id": "ct-2step",
+          "name": "2-Step Challenge",
+          "type": "2-Step",
+          "sizes": [
+            {"size": "6K", "price": 59},
+            {"size": "12K", "price": 99},
+            {"size": "25K", "price": 179},
+            {"size": "50K", "price": 299},
+            {"size": "100K", "price": 499}
+          ],
+          "rules": {
+            "phase1Target": "8%",
+            "phase2Target": "5%",
+            "dailyLoss": "5%",
+            "maxDrawdown": "10%",
+            "drawdownType": "Static",
+            "minTradingDays": 0,
+            "timeLimit": "Unlimited",
+            "leverage": "1:20",
+            "profitSplit": "80%",
+            "payoutFrequency": "Daily (after 14 days)",
+            "refund": "No subscription fees",
+            "newsTrading": "Allowed",
+            "weekendHolding": "Yes (crypto 24/7)",
+            "consistencyRule": "None",
+            "scaling": "Up to $100K"
+          }
+        }
+      ]
+    }
+  ]
+}
